@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./MidnightMarrakech.css?v=2">
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                
+                <a href="./index.html"><img class="logo" src="./imgs/Untitled(1).png" alt="AZ"></a>
+                <div class="header-text">
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./shop.html" style="color: white;">Shop</a></p>
+                    <p><a href="./about.html">About</a></p>
+                </div>
+                
+
+            </div>
+        </header>
+
+        <div class="v"><h6><a href="./shop.html">&#9664; &ensp;All Products</a></h6></div>
+
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="imgs/IMG_9798.jpg">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="./imgs/IMG_9798.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="./imgs/blue1.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="./imgs/blue2.jpg" onclick="showImg(this.src)">
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>Chaouen Blue Gandoura</h3>
+                    <h4>$35.00</h4>
+                    <hr>
+                    
+                    <p>
+                        The "Chaouen Blue" gandoura is elegantly crafted from premium Loulen Sfifa fabric, renowned for its sumptuous texture and lasting durability. Inspired by the serene blue hues of Chefchaouen’s iconic landscape, this gandoura features a captivating shade of blue that mirrors the town’s tranquil beauty. The deep, vibrant color and the luxurious feel of the fabric together capture the essence of Moroccan charm and timeless elegance.                    </p>
+
+                    <div class="button-container">
+                        <button class="button-6" id="sold-out">S</button>
+                        <button class="button-6">M</button>
+                        <button class="button-6">L</button>
+                        <button class="button-6" id="sold-out">XL</button>
+                        <button class="button-6" id="sold-out">XXL</button>
+                    </div>
+                    <a href="https://www.instagram.com/az.apparel.co/"><button class="button-27">BUY NOW</button></a>                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                    <div class="socials">
+                        <div class="logos">
+                            <a href="https://www.instagram.com/az.apparel.co/"><img src="./imgs/icons8-instagram-48.png" alt=""></a>
+                            <a href="https://www.tiktok.com/@az.apparel.co"><img src="./imgs/icons8-tiktok-48.png" alt=""></a>
+                        </div>
+                        <h3><strong>AZ Apparel</strong></h3>
+                        <h3>az.corporation33@gmail.com</h3>
+                    </div>
+                </div>
+                <div class="end">
+                    <h4>Copyright © 2024 AZ Apparel - All Rights Reserved.</h4>
+                    <div class="AZ"><h4>&emsp; Powered by</h4><img src="./imgs/Untitled__1_-removebg-preview.png" alt=""></div>
+                </div>
+            </footer>
+        
+            <script>
+                let bigImg = document.querySelector('.big-img img');
+                function showImg(pic){
+                    bigImg.src = pic;
+                }
+            </script>
+        
+        
+
+      
+        
+    </body>
+</html>

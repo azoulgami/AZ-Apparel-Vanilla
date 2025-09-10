@@ -1,0 +1,513 @@
+@font-face {
+    font-family: "open-sans";
+    src: url(./fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
+#header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 12vh;
+}
+.header-text {
+    color: #03c6fb;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-text>p {
+    font-size: 20px;
+    font-family: "open-sans";
+    padding: 30px;
+   
+}
+header a {
+    color: #03c6fb;
+}
+
+
+
+#home-img {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url(./imgs/Windows\ Blue\ Winter\ Djellaba.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Home-txt {
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#home-img>h1 {
+    font-size: 75px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    
+}
+
+#home-img>h3 {
+    font-size: 25px;
+}
+
+
+
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  margin-top: 33px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: #03c6fb
+}
+.button-6>a {
+    color: black
+
+}
+.button-6>a:hover {
+color: #03c6fb
+
+}
+.button-6:hover {
+  transform: translateY(-1px);
+  background-color: black;
+  color: #03c6fb;
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+.mission-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mission-section {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.mission-section > div {
+    flex: 1 1 45%; 
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.mission-text {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 115%;
+    text-align: justify;
+}
+
+.mission-image-container {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .mission-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mission-section > div {
+        width: 90%; /
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.categories {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* Adds spacing between elements */
+    padding: 20px;
+}
+
+.categories > div {
+    flex: 1 1 45%; /* Adjusts width while allowing flexibility */
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.g {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 115%;
+    text-align: justify;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    .categories > div {
+        width: 90%; /* Makes sure content fits nicely on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-container {
+    position: relative;
+    width: 640px;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: opacity 0.3s;
+}
+
+.video-container:hover .controls {
+    opacity: 1;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    flex: 1;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.next-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.next-section {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.next-section > div {
+    flex: 1 1 45%;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+.next-text {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 115%;
+    text-align: justify;
+}
+
+.next-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.next-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: #dff8ff;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Allows the text to wrap while keeping the title in one line */
+}
+
+.next-list li span {
+    font-weight: bold;
+    color: #03c6fb;
+    white-space: nowrap; /* Prevents title from breaking into the next line */
+    min-width: fit-content; /* Ensures the title takes only as much space as needed */
+}
+
+
+.next-image-container {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .next-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .next-section > div {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: "open-sans";
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials h3 {
+    margin-bottom: 0px;
+    
+}
+
+
+.logos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.end {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.AZ {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.AZ h4 {
+    margin: 0px;
+    margin-right: 10px;
+}
+.AZ img {
+    height: 50px;
+    object-fit: contain;
+    margin: 0px;
+}
+
+
+
+
+

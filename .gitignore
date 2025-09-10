@@ -1,0 +1,18 @@
+# =========================
+# Windows system files
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# VS Code settings
+# =========================
+.vscode/
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+
